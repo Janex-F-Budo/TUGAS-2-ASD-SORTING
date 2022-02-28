@@ -17,3 +17,5 @@
   Insertion Sort merupakan sebuah teknik pengurutan dengan cara membandingkan dan mengurutkan dua data pertama pada array, kemudian membandingkan data para array berikutnya       apakah sudah berada di tempat semestinya. Algorithma insertion sort seperti proses pengurutan kartu yang berada di tangan kita, selembar demi selembar kartu yang diambil dan   disisipkan di posisi yang seharusnya.
 
 
+4. <a href="">Excalenge Sort</a>.
+
