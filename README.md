@@ -7,6 +7,7 @@
 
 
 2. <a href="">Selection Sort</a>.
+![selction sort](https://user-images.githubusercontent.com/99227575/155937165-291fa934-9518-44cc-9f7d-1ca3865e1a40.png)
 
   Selection sort merupakan teknik sorting yang paling sederhana, hal pertama yang akan dilakukan algoritma selection sort adalah menemukan elemen terkecil dalam array kita dan   menukarnya (swap) dengan elemen yang ada di posisi pertama, kemudian algoritma ini akan mengulangi hal yang sama lagi yaitu mencari elemen terkecil yang ada di dalam array     dan kemudian menukarnya (swap) dengan elemen yang ada di posisi kedua (mengingat elemen di posisi pertama sudah berhasil kita sorting). Proses ini akan terus berlanjut sampai    semua elemen yang ada di dalam array telah berhasil kita sorting.
   
