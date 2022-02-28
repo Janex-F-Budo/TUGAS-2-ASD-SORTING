@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+   int i, j, hitung, suhu, nomor[25];
+
+   printf("Berapa angka yang mau di masukkan?: ");
+   scanf("%d",&hitung);
+
+   printf("Masukkan %d angka: \n", hitung);
+   for(i = 0; i < hitung;i++)
+      scanf("%d",&nomor[i]);
+
+
+   for(i = 0; i < hitung;i++){
+      for(j = i + 1; j < hitung; j++){
+         if(nomor[i] > nomor[j]){
+            suhu = nomor[i];
+            nomor[i] = nomor[j];
+            nomor[j] = suhu;
+         }
+      }
+   }
+
+   printf("angka yang diurutkan: ");
+   for(i = 0; i < hitung; i++)
+      printf(" %d",nomor[i]);
+
+   return 0;
+}
