@@ -1,0 +1,37 @@
+int t = 0, b = 0, tmp;
+int a[100], n, i, d, swap;
+
+
+void bubble_sort(int a[], int n)
+{
+    for (t = 0; t < n; t++)
+        {
+        for (b = 0; b < n - t - 1; b++)
+            {
+            if (a[b] > a[b + 1])
+            {
+                tmp = a[b];
+                a[b] = a[b + 1];
+                a[b + 1] = tmp;
+            }
+            }
+        }
+}
+
+int main()
+{
+  printf("masukan angka  : ");
+  scanf("%d", &n);
+
+  printf("masukan %d angka berapa saja sebanyak batasnya \n", n);
+  for (t = 0; t < n; t++)
+  scanf("%d", &a[t]);
+  bubble_sort(a, n);
+
+  printf("Hasil yang sdh di urutkan \n");
+  for (t = 0; t < n; t++)
+  printf("%d\n", a[t]);
+
+
+  return 0;
+}
