@@ -15,3 +15,5 @@
  ![_C__belajar DDP_Kartika saur_main exe_  28_02_2022 13_54_49](https://user-images.githubusercontent.com/99227575/155937970-d4d53bec-a0f9-4593-aea9-9d525e342187.png)
 
   Insertion Sort merupakan sebuah teknik pengurutan dengan cara membandingkan dan mengurutkan dua data pertama pada array, kemudian membandingkan data para array berikutnya       apakah sudah berada di tempat semestinya. Algorithma insertion sort seperti proses pengurutan kartu yang berada di tangan kita, selembar demi selembar kartu yang diambil dan   disisipkan di posisi yang seharusnya.
+
+
